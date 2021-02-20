@@ -1,0 +1,1 @@
+More about Pointer arrays strings prog C 
