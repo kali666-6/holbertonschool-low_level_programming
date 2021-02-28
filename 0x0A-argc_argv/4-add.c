@@ -8,9 +8,8 @@
  */
 int main(int argc, char *argv[])
 {
-int w = 0;
-int j = 0;
 int add = 0;
+int w = 0 j = 0;
 if (argc < 2)
 {
 printf("0\n");
