@@ -1,12 +1,12 @@
-#include <stdio.h>
+ #include <stdio.h>
 /**
- *main - print the name of the programme
+ * main - print the name of the prog
  *@argc: argc
  *@argv: argv
- *RETURN : 0
+ * Return: 0
  */
-int main ( int argc, char* argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 printf("%s\n", argv[0]);
-return 0;
+return (0);
 }
