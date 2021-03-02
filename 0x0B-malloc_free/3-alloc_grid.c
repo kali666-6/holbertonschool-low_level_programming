@@ -17,7 +17,7 @@ if (width <= 0 || height <= 0)
 return (NULL);
 arr = malloc(height * sizeof(int *));
 if (arr == NULL)
-  return (NULL);
+return (NULL);
 for (i = 0; i < height; i++)
 {
 arr[i] = malloc(width * sizeof(int));
