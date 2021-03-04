@@ -7,16 +7,15 @@
  */
 
 
-
-void *malloc_checked(unsingned int b )
+void *malloc_checked(unsingned int b)
 
 
 {
 void *w;
 w = malloc(b);
-if (w == NULL);
+if
+(w == NULL);
 exit(98);
 else
 return (w);
-  
 }
