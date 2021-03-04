@@ -1,0 +1,1 @@
+more fonction about Macloc and Caloc 
