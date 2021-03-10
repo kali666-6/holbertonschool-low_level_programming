@@ -11,7 +11,7 @@ typedef struct op
 {
 char *op;
 int (*f)(int a, int b);
-}op_t;
+} op_t;
 #endif
 #ifndef FUNCTIONS_H
 #define FUNCTIONS_H
