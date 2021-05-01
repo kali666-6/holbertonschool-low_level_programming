@@ -15,7 +15,7 @@ if (h == NULL)
 {
 return (0);
 }
-for (h != NULL, h = h->next, i++)
+for (h = NULL ; (h = h->next) ; i++)
 {
 printf("%d\n", h->n);
 }
