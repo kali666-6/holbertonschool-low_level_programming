@@ -15,9 +15,11 @@ if (h == NULL)
 {
 return (0);
 }
-for (h = NULL ; (h = h->next) ; i++)
+while (h != NULL)
 {
 printf("%d\n", h->n);
+h = h->next;
+i++;
 }
 return (i);
 }
