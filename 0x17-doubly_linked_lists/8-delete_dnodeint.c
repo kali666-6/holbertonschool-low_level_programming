@@ -19,7 +19,7 @@ dlistint_t *ptrfree = *head;
 if (!head || !*head)
 {
 return (-1);
-	}
+}
 if (index > 0)
 {
 for (i = 0 ; i < index ; i++)
